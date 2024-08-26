@@ -24,9 +24,15 @@ body {
 }
 .box-article h1 {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 500;
 }
 .box-article .article-pict {
-    height: 150px;
+    height: 120px;
     background-color: red;
+    overflow: hidden;
+}
+.box-article .article-pict img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }

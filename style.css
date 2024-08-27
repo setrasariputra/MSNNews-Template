@@ -36,3 +36,37 @@ body {
     height: auto;
     object-fit: cover;
 }
+@media (max-width: 1567px) {
+    .container {
+        max-width: 1230px;
+    }
+    .grid-2 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 1255px) {
+    .container {
+        max-width: 950px;
+    }
+    .grid-2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/* Tablet */
+@media (max-width: 943px) {
+    .container {
+        max-width: 650px;
+    }
+    .grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* Smartphone */
+@media (max-width: 631px) {
+    .container {
+        max-width: 340px;
+    }
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
